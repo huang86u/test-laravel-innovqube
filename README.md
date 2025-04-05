@@ -33,6 +33,7 @@ php artisan migrate
 php artisan serve
 ```
 - Login
+
 Admin: alex@test.com:123456789
 
 User: root@gmail.com:12345678
