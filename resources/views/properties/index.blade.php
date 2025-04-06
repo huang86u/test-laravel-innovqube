@@ -9,7 +9,6 @@
                 <h3 class="text-lg font-bold">{{ $property->name }}</h3>
                 <p class="text-sm text-gray-600">{{ $property->description }}</p>
                 <p class="mt-2 text-primary font-semibold">{{ $property->price_per_night }} € / nuit</p>
-                <a href="#" class="inline-block mt-3 bg-secondary text-white px-4 py-2 rounded hover:bg-purple-700">Réserver</a>
             </div>
         @endforeach
         <a href="{{ route('properties.create') }}" class="inline-block bg-primary text-white px-4 py-2 rounded hover:bg-blue-800 mb-4">
