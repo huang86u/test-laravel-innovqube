@@ -20,6 +20,9 @@ Il s'agit d'une application de gestion de réservation immobilières.
 - TailwindCSS 3.1.0
 
 ## Lancer le projet
+
+Copier le fichier .env.exemple et renommé le .env. Enlever les commentaires et renseignez la connexion à la base de données.
+
 ```bash
 cd laravel-test
 composer install
